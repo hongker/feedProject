@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b631760c-3bfa-451a-b625-081df7393f31" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="feedProject" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="E:/Env/go" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1aVkjIUCgMn4aZfuXxLvOxy29vV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pkg/enum" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Workspace\go\src\feedProject\pkg\enum" />
+      <recent name="E:\Workspace\go\src\feedProject\pkg\entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Workspace\go\src\feedProject\pkg\constant" />
+      <recent name="E:\Workspace\go\src\feedProject\http" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestUserService_PullFeed in feedProject/pkg/service (1)">
+    <configuration name="TestFeedService_Create in feedProject/pkg/service (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="feedProject" />
+      <working_directory value="$PROJECT_DIR$/pkg/service" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="feedProject/pkg/service" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestFeedService_Create$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRelationService_Create in feedProject/pkg/service" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="feedProject" />
+      <working_directory value="$PROJECT_DIR$/pkg/service" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="feedProject/pkg/service" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestRelationService_Create$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestUserService_PullFeed in feedProject/pkg/service (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="feedProject" />
+      <working_directory value="$PROJECT_DIR$/pkg/service" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="feedProject/pkg/service" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestUserService_PullFeed$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestUserService_PullFeed in feedProject/pkg/service" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="feedProject" />
+      <working_directory value="$PROJECT_DIR$/pkg/service" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="feedProject/pkg/service" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestUserService_PullFeed$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestUserService_PullHistoryFeed in feedProject/pkg/service" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="feedProject" />
+      <working_directory value="$PROJECT_DIR$/pkg/service" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="feedProject/pkg/service" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestUserService_PullHistoryFeed$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestUserService_PullFeed in feedProject/pkg/service (1)" />
+        <item itemvalue="Go Test.TestUserService_PullHistoryFeed in feedProject/pkg/service" />
+        <item itemvalue="Go Test.TestFeedService_Create in feedProject/pkg/service (1)" />
+        <item itemvalue="Go Test.TestUserService_PullFeed in feedProject/pkg/service" />
+        <item itemvalue="Go Test.TestRelationService_Create in feedProject/pkg/service" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>https://goproxy.cn</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="474" y="54" key="#com.intellij.ide.util.MemberChooser" timestamp="1586848890735">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="474" y="54" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586848890735" />
+    <state width="1485" height="186" key="GridCell.Tab.0.bottom" timestamp="1586860798635">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1485" height="186" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586860798635" />
+    <state width="1485" height="186" key="GridCell.Tab.0.center" timestamp="1586860798635">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1485" height="186" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586860798635" />
+    <state width="1485" height="186" key="GridCell.Tab.0.left" timestamp="1586860798635">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1485" height="186" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586860798635" />
+    <state width="1485" height="186" key="GridCell.Tab.0.right" timestamp="1586860798635">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1485" height="186" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586860798635" />
+    <state width="1485" height="278" key="GridCell.Tab.1.bottom" timestamp="1586859852269">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1485" height="278" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586859852269" />
+    <state width="1485" height="278" key="GridCell.Tab.1.center" timestamp="1586859852269">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1485" height="278" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586859852269" />
+    <state width="1485" height="278" key="GridCell.Tab.1.left" timestamp="1586859852269">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1485" height="278" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586859852269" />
+    <state width="1485" height="278" key="GridCell.Tab.1.right" timestamp="1586859852269">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1485" height="278" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586859852269" />
+    <state x="182" y="0" key="SettingsEditor" timestamp="1586828453384">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="182" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586828453384" />
+    <state width="777" height="421" key="XDebugger.FullValuePopup" timestamp="1586859736194">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="777" height="421" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1586859736194" />
+    <state x="339" y="0" width="840" height="822" key="search.everywhere.popup" timestamp="1586855097591">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="339" y="0" width="840" height="822" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586855097591" />
+  </component>
+</project>
