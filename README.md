@@ -67,7 +67,7 @@ field: {creator_id}:{feed_id}
 - Feed信息缓存
 string类型,记录Feed的基本内容，如果用户更新Feed，只需更新这个key
 ```
-key: user_field_info:{field}
+key: cache_user_feed_info:{field}
 value: {content:a,created_at:2020-04-15...}
 ```
 
