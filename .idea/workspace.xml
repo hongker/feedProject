@@ -4,14 +4,6 @@
     <list default="true" id="b631760c-3bfa-451a-b625-081df7393f31" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/handler/feed.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/handler/relation.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/handler/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/route/route.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/route/route.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/service/feed_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/service/feed_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/task/task.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/task/task.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
