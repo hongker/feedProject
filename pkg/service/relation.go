@@ -67,3 +67,4 @@ func (service *RelationService) Cancel(userId, targetId int) error {
 
 	return nil
 }
+

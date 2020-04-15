@@ -2,7 +2,8 @@ package request
 
 type PullFeedRequest struct {
 	UserId int `form:"user_id"`
-	Limit int `form:"limit"`
+	Limit int64 `form:"limit"`
+	Offset int64 `form:"offset"`
 
 }
 

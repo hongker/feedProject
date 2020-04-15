@@ -2,8 +2,11 @@ package handler
 
 import "github.com/gin-gonic/gin"
 
-// PullFeedHandler 拉取feed信息
-func PullFeedHandler(ctx *gin.Context)  {
+// PullNewFeedHandler 拉取新的feed信息
+func PullNewFeedHandler(ctx *gin.Context)  {
 
 }
 
+func PullHistoryFeedHandler(ctx *gin.Context)  {
+	
+}

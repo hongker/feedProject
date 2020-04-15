@@ -11,7 +11,11 @@ const(
 	userRelationOffsetPrefix = "cache_user_relation_offset"
 	userNewFeedPrefix = "cache_user_new_feed"
 	userPullLastIdPrefix = "cache_user_pull_last_id"
+	userFeedQueuePrefix = "cache_feed_queue"
+
+	FeedSyncQueue = "cache_feed_sync_queue"
 )
+
 
 // GetUserHistoryFeedListCacheKey 获取用户历史feed的list,实现分页
 // key=history_feed_list:userId
@@ -42,14 +46,15 @@ func GetUserPullNewFeedLastId(userId int) string  {
 	return fmt.Sprintf("%s:%d", userPullLastIdPrefix, userId)
 }
 
-// GetUserNewFeedCacheKey 获取用户最新feed的key，通过string存储的是feedId
-// key=user_new_feed:userId
+// GetUserFeedQueueKey 获取用户的feed队列，类型为sorted set
+// key=user_feed_queue:userId
 // value={"content":content,"created_at":created_at..}
-func GetUserNewFeedCacheKey(userId int) string {
-	return fmt.Sprintf("%s:%d", userNewFeedPrefix, userId)
+func GetUserFeedQueueKey(userId int) string {
+	return fmt.Sprintf("%s:%d", userFeedQueuePrefix, userId)
 }
 
 // GetFeedField
 func GetFeedField(creatorId, feedId int) string {
 	return fmt.Sprintf("%d:%d", creatorId, feedId)
 }
+
