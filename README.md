@@ -43,10 +43,12 @@
 ## 流程说明
 ![流程图](http://processon.com/chart_image/5e95759b7d9c0842ab38e5ff.png)
 
+或者直接查看: [大图](https://www.processon.com/view/link/5e95759f7d9c0842ab38e61c)
 ## 数据库设计
 表模型:
 ![模型](http://processon.com/chart_image/5e966e09e401fd262e195b7f.png)
 
+或者直接查看：[大图](https://www.processon.com/view/link/5e966e09637689282f6708aa)
 - 用户表
 记录用户信息与状态
 
