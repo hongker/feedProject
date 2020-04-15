@@ -75,7 +75,7 @@ func (service *FeedService) SyncQueue() error {
 	res, _ := json.Marshal(item)
 	redisClient.Set(cacheKey, res, constant.ExpireTime)
 
-	// TODO 如果是大V(role_type=2),则往活跃用户主动推送feed信息
+	// 如果是大V(role_type=2),则往活跃用户主动推送feed信息
 	user , err := dao.User(app.DB()).Get(feed.CreatorId)
 	if err != nil {
 		return err

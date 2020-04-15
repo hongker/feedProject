@@ -17,7 +17,8 @@ func User(db *gorm.DB) *UserDao {
 
 func (dao *UserDao) Get(id int) (*entity.User, error) {
 	user := entity.User{}
-	if err := dao.db.Table(entity.TableUser).Where("id = ?", id).First(&user).Error; err != nil {
+	if err := dao.db.Table(entity.TableUser).Where("id = ?", id).
+		First(&user).Error; err != nil {
 		return nil, err
 	}
 

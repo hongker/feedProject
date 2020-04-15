@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b631760c-3bfa-451a-b625-081df7393f31" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/dao/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/dao/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/service/feed.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/service/feed.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,7 @@
       <recent name="E:\Workspace\go\src\feedProject\pkg\entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestFeedService_SyncQueue in feedProject/pkg/service">
+  <component name="RunManager" selected="Go Build.go build feedProject">
     <configuration name="go build feedProject" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="feedProject" />
       <working_directory value="$PROJECT_DIR$" />
@@ -142,22 +145,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="474" y="54" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586848890735" />
-    <state width="1485" height="121" key="GridCell.Tab.0.bottom" timestamp="1586920015907">
+    <state width="1485" height="39" key="GridCell.Tab.0.bottom" timestamp="1586931359049">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="121" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586920015907" />
-    <state width="1485" height="121" key="GridCell.Tab.0.center" timestamp="1586920015906">
+    <state width="1485" height="39" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586931359049" />
+    <state width="1485" height="39" key="GridCell.Tab.0.center" timestamp="1586931359049">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="121" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586920015906" />
-    <state width="1485" height="121" key="GridCell.Tab.0.left" timestamp="1586920015906">
+    <state width="1485" height="39" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586931359049" />
+    <state width="1485" height="39" key="GridCell.Tab.0.left" timestamp="1586931359048">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="121" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586920015906" />
-    <state width="1485" height="121" key="GridCell.Tab.0.right" timestamp="1586920015906">
+    <state width="1485" height="39" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586931359048" />
+    <state width="1485" height="39" key="GridCell.Tab.0.right" timestamp="1586931359049">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="121" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586920015906" />
+    <state width="1485" height="39" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586931359049" />
     <state width="1485" height="267" key="GridCell.Tab.1.bottom" timestamp="1586879292448">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -190,16 +193,5 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="339" y="0" width="840" height="822" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586875213616" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/pkg/service/feed.go</url>
-          <line>83</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
