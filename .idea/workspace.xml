@@ -2,31 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b631760c-3bfa-451a-b625-081df7393f31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/enum/user_role_type.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/task/task.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/feed.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/handler/relation.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/http/handler/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/handler/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/route/route.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/route/route.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/constant/cache_key.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/constant/cache_key.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/constant/time.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/constant/time.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/dao/feed.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/dao/feed.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/dao/relation.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/dao/relation.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/dao/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/dao/user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/entity/common.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/entity/common.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/entity/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/entity/user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/request/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/request/user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/service/feed.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/service/feed.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pkg/service/feed_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/service/feed_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/service/relation.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/service/relation.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/service/relation_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/service/relation_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/service/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/service/user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/service/user_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/service/user_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/utils/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/utils/utils.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/task/task.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/task/task.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +63,27 @@
       <recent name="E:\Workspace\go\src\feedProject\pkg\entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestFeedService_Create in feedProject/pkg/service">
+  <component name="RunManager" selected="Go Test.TestFeedService_SyncQueue in feedProject/pkg/service">
+    <configuration name="go build feedProject" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="feedProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="feedProject" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestFeedService_Create in feedProject/pkg/service (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="feedProject" />
+      <working_directory value="$PROJECT_DIR$/pkg/service" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="feedProject/pkg/service" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestFeedService_Create$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestFeedService_Create in feedProject/pkg/service" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="feedProject" />
       <working_directory value="$PROJECT_DIR$/pkg/service" />
@@ -90,7 +95,7 @@
       <pattern value="^TestFeedService_Create$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestUserService_GetHistoryFeed in feedProject/pkg/service" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFeedService_SyncQueue in feedProject/pkg/service" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="feedProject" />
       <working_directory value="$PROJECT_DIR$/pkg/service" />
       <framework value="gotest" />
@@ -98,29 +103,7 @@
       <package value="feedProject/pkg/service" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestUserService_GetHistoryFeed$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestUserService_GetNewFeed in feedProject/pkg/service" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="feedProject" />
-      <working_directory value="$PROJECT_DIR$/pkg/service" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="feedProject/pkg/service" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestUserService_GetNewFeed$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestUserService_InitFeedOfInactive in feedProject/pkg/service" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="feedProject" />
-      <working_directory value="$PROJECT_DIR$/pkg/service" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="feedProject/pkg/service" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestUserService_InitFeedOfInactive$" />
+      <pattern value="^TestFeedService_SyncQueue$" />
       <method v="2" />
     </configuration>
     <configuration name="TestZRange in feedProject/pkg/service" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -136,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build feedProject" />
+        <item itemvalue="Go Test.TestFeedService_SyncQueue in feedProject/pkg/service" />
+        <item itemvalue="Go Test.TestFeedService_Create in feedProject/pkg/service (1)" />
         <item itemvalue="Go Test.TestFeedService_Create in feedProject/pkg/service" />
         <item itemvalue="Go Test.TestZRange in feedProject/pkg/service" />
-        <item itemvalue="Go Test.TestUserService_GetNewFeed in feedProject/pkg/service" />
-        <item itemvalue="Go Test.TestUserService_InitFeedOfInactive in feedProject/pkg/service" />
-        <item itemvalue="Go Test.TestUserService_GetHistoryFeed in feedProject/pkg/service" />
       </list>
     </recent_temporary>
   </component>
@@ -168,22 +151,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="474" y="54" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586848890735" />
-    <state width="1485" height="197" key="GridCell.Tab.0.bottom" timestamp="1586880678742">
+    <state width="1485" height="121" key="GridCell.Tab.0.bottom" timestamp="1586920015907">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586880678742" />
-    <state width="1485" height="197" key="GridCell.Tab.0.center" timestamp="1586880678742">
+    <state width="1485" height="121" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586920015907" />
+    <state width="1485" height="121" key="GridCell.Tab.0.center" timestamp="1586920015906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="197" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586880678742" />
-    <state width="1485" height="197" key="GridCell.Tab.0.left" timestamp="1586880678742">
+    <state width="1485" height="121" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586920015906" />
+    <state width="1485" height="121" key="GridCell.Tab.0.left" timestamp="1586920015906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="197" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586880678742" />
-    <state width="1485" height="197" key="GridCell.Tab.0.right" timestamp="1586880678742">
+    <state width="1485" height="121" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586920015906" />
+    <state width="1485" height="121" key="GridCell.Tab.0.right" timestamp="1586920015906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586880678742" />
+    <state width="1485" height="121" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586920015906" />
     <state width="1485" height="267" key="GridCell.Tab.1.bottom" timestamp="1586879292448">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

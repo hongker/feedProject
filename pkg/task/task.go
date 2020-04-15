@@ -9,8 +9,8 @@ import (
 func Start()  {
 	task := cron.New()
 
-	_ = task.AddFunc("*/1 * * * * ?", func() {
-		fmt.Println("SyncQueue:%v", service.Feed().SyncQueue())
+	_ = task.AddFunc("*/10 * * * * ?", func() {
+		fmt.Printf("SyncQueue:%v\n", service.Feed().SyncQueue())
 	})
 
 	task.Run()

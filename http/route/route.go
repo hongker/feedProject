@@ -16,33 +16,11 @@ func Load(router *gin.Engine)  {
 	user := router.Group("v1/user")
 	{
 		// 获取feed流信息
-		user.GET("/feed", handler.PullFeedHandler)
+		user.GET("feed/new", handler.PullNewFeedHandler)
+
+		// 获取feed流信息
+		user.GET("feed/history", handler.PullHistoryFeedHandler)
 	}
 
-	// relation api group
-	relation := router.Group("v1/relation")
-	{
-		// 关注
-		relation.POST("", handler.RelationCreateHandler)
-
-		// 取消
-		relation.DELETE("/:id", handler.RelationCancelHandler)
-	}
-
-	// feed api group
-	feed := router.Group("v1/feed")
-	{
-		// 拉取feed
-		feed.GET("", handler.FeedListHandler)
-
-		// 创建
-		feed.POST("", handler.FeedCreateHandler)
-
-		// 更新
-		feed.PUT("/:id", handler.FeedUpdateHandler)
-
-		// 禁用
-		feed.DELETE("/:id", handler.FeedDisableHandler)
-	}
 
 }

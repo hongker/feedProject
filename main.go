@@ -11,7 +11,7 @@ func main() {
 
 	route.Load(router)
 
-	task.Start()
+	go task.Start()
 
 	_ = router.Run(":8085")
 }
